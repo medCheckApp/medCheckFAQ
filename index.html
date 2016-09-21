@@ -1,18 +1,22 @@
+<style type="text/css">
+  ol { counter-reset: item }
+  li { display: block }
+  li:before { content: counters(item, ".") " "; counter-increment: item }
+</style>
+
 <h1>Como usar o MedCheck</h1>
 
 <h2>Navegação</h2>
 <ol>
   <li>Use o menu lateral para navegar entre as telas do aplicativo</li>
   <li>O aplicativo possui 5 telas principais</li>
-  <li>
     <ol>
       <li>Pacientes: Lista de pacientes cadastrados</li>
       <li>Itens de Checklists: Itens que podem ser utilizados dentro das checklists</li>
       <li>Checklists: Checklists criadas utilizando os Itens de Checklist e que podem ser utilizadas dentro dos pacientes</li>
-      <li>Relatórios: Gereção de relatório de dados das Checklists por unidade, período de tempo e tipo de checklist<li>
+      <li>Relatórios: Gereção de relatório de dados das Checklists por unidade, período de tempo e tipo de checklist</li>
       <li>Intruções: Instruções de uso para o aplicativo</li>
     </ol>
-  </li>
   <li>O botão de Logout do sistema se encontra no menu lateral</li>
 </ol>
 
@@ -55,18 +59,18 @@
 <p>Existem duas formas de relacionar uma checklist à um paciente</p>
 <ol>
  <li>Usando a tela de Pacientes</li>
- <li>
+ <ol>
   <li>Use o menu lateral para acessar a tela de Pacientes</li>
   <li>Na tela de visualização das informações do Paciente, aperte em "Editar Paciente" para editar as informações do Paciente</li>
   <li>Aperte em "Adicionar Checklist" para poder adicionar uma Checklist a um paciente já existente</li>
   <li>Na tela de Editar Paciente seleciona uma Checklist e arraste-a para a esquerda para visualizar o botão de deletar. Essa ação não vai deletar a Checklist, apenas remover a Checklist daquele paciente.</li>
   <li>Para responder uma Checklist basta acessar as informações de um paciente, escolher a Checklist que deseja responder e marcar os Itens que foram respondidos. Depois use o botão "Salvar" no canto direito superior para finalizar a resposta da Checklist e retornar a tela de informações do paciente.</li>
- </li>
+ </ol>
  <li>Usando a tela de Checklist</li>
- <li>
+ <ol>
   <li>Use o menu lateral para navegar a tela de Checklists</li>
   <li>Na tela de vizualização das informações da Checklist selecione a opção para adicionar um pacientes a essa Checklist</li>
   <li>Na tela de Editar Checklist seleciona um Paciente e arraste-a para a esquerda para visualizar o botão de deletar. Essa ação não vai deletar o Paciente, apenas remover o Paciente daquela Checklist.</li>
   <li>Para responder uma Checklist basta acessar as informações de uma checklist, escolher o Paciente que deseja responder e marcar os Itens que foram respondidos. Depois use o botão "Salvar" no canto direito superior para finalizar a resposta da Checklist e retornar a tela de informações da Checklist.</li>
- </li>
+ </ol>
 </ol>
